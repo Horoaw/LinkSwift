@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              LinkSwift
 // @namespace         github.com/hmjz100
-// @version           1.1.3.3
+// @version           1.1.3.4
 // @author            Hmjz100、油小猴、Horoaw
 // @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImdvbGRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1OUQ7c3RvcC1vcGFjaXR5OjEiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRDcwMDtzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZCQzAyRDtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuNCwgLTIpIHNjYWxlKDAuOSkiPjxwYXRoIGQ9Ik0xMDMuNiAxMDcuNGMzLjUtMi4yIDguOS02LjEgMTMuOC0xMi41czcuMy0xMi41IDguNS0xNi41Yy41LTEuNyAyLjItNy41IDIuMi0xNC43IDAtMTAuMS0zLjMtMjUuMS0xNS40LTM2LjgtMTQuNS0xNC0zMi4xLTE0LjMtMzUuNy0xNC4zLTggMC0xNS43IDEuOS0yMi42IDUuMkM0NCAyMyAzNS43IDMxLjQgMzAuOCA0MS43Yy0xLjMgMi44LTQgNC43LTcuMSA1LTQgLjMtNy41IDQuNC04LjkgOS42LS41IDEuOS0xLjYgMy41LTMuMSA0LjdDNC40IDY2LjggMCA3NS43IDAgODVjMCA2LjggMi4zIDEzLjEgNi4xIDE4LjIgNS41IDcuNCAxNC4yIDEyLjIgMjQgMTIuMmg0Ny4xYzQuNCAwIDExLS41IDE4LjMtMy41IDMuMi0xLjQgNS45LTMgOC4xLTQuNXoiIGZpbGw9IiNBMDk5RjAiLz48cGF0aCBkPSJNMTE5LjggNjQuM2MuMS0xNy4xLTEwLjQtMjgtMTIuNS0zMC4xQzk1IDIyLjEgNzkuOSAyMS44IDc2LjkgMjEuOGMtMTcuNiAwLTMzLjMgMTAuNS0zOS45IDI2LjctLjYgMS4zLTEuOCAyLjMtMy40IDIuM2gtLjRjLTUuOCAwLTEwLjYgNC44LTEwLjYgMTAuN3YuNWMwIDEuNC0uOCAyLjYtMS45IDMuM0MxMy40IDY5IDguOCA3Ni44IDguOCA4NWMwIDEyLjIgOS45IDIyLjMgMjIuMiAyMi4zaDQ1LjJjMy42LS4xIDE3LjYtLjkgMjkuNi0xMiAyLjktMi44IDEzLjktMTMuNyAxNC0zMXoiIGZpbGw9IiM1NzRBQjgiLz48cGF0aCBkPSJNMTEwLjggNTcuNGwuMiAzLjNjMCAxLjMtMS4xIDIuNC0yLjMgMi40LTEuMyAwLTIuMy0xLjEtMi4zLTIuNGwtLjEtMi44di0uM2MwLTEuMi45LTIuMiAyLjEtMi4zaC4zYy43IDAgMS4zLjMgMS43LjctLjIuMS4zLjUuNCAxLjR6bS0zLjMtMTAuM2MwIDEuMi0xIDIuMy0yLjIgMi4zaC0uMWMtLjggMC0xLjYtLjUtMi0xLjItNC42LTguMy0xMy4zLTEzLjUtMjIuOC0xMy41LTEuMiAwLTIuMy0xLTIuMy0yLjJ2LS4xYzAtMS4yIDEtMi4zIDIuMi0yLjNoLjFhMzAuMzcgMzAuMzcgMCAwIDEgMTUuOCA0LjRjNC42IDIuOCA4LjQgNi44IDExLjEgMTEuNS4xLjMuMi43LjIgMS4xek04OC4zIDczLjhMNzMuNSA5My4yYy0xLjUgMS45LTMuNSAzLjEtNS43IDMuNWgtLjJjLS40LjEtLjguMS0xLjIuMS0uNiAwLTEuMS0uMS0xLjYtLjItMi4yLS40LTQuMi0xLjctNS42LTMuNUw0NC4zIDczLjljLTItMi42LTIuNS01LjQtMS40LTcuNy4xLS4xLjEtLjIuMi0uMiAxLjItMiAzLjUtMy4yIDYuNC0zLjJoNi42di01LjdjMC02LjggNC43LTEyIDEwLjktMTIgNC44IDAgOC41IDIuNiAxMC4zIDcuMi41IDEuMy0uMiAyLjctMS41IDMuMnMtMi44LS4xLTMuMy0xLjRjLTEuMS0yLjctMi45LTQtNS41LTQtMy41IDAtNiAzLTYgN3Y4LjFjMCAuNS0uMiAxLS42IDEuNC0uNi43LTEuNyAxLjEtMi42IDEuMWgtOC40Yy0xLjMgMC0yIC40LTIuMS43LS4yLjQgMCAxLjMuOSAyLjRMNjMuMSA5MGMuOSAxLjIgMi4xIDEuOCAzLjMgMS44czIuMy0uNiAzLjEtMS43bDE0LjgtMTkuM2MuOS0xLjEgMS4xLTIgLjktMi40LS4yLS4zLS45LS43LTIuMS0uN2gtNy42Yy0uOSAwLTEuNy0uNS0yLjEtMS4yLS4zLS40LS40LS44LS40LTEuMyAwLTEuNCAxLjEtMi41IDIuNS0yLjVoNy42YzMuMSAwIDUuNSAxLjMgNi42IDMuNWwuMy43Yy43IDIuMS4xIDQuNi0xLjcgNi45eiIgZmlsbD0iI2ZmZiIvPjwvZz48Zz48cGF0aCBkPSJNMCAxMDAgUTY0IDExNSAxMjggMTAwIEwxMjggMTI4IEwwIDEyOCBaIiBmaWxsPSIjRDMyRjJGIi8+PHBhdGggZD0iTTAgMTAwIFE2NCAxMTUgMTI4IDEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2dvbGRHcmFkaWVudCkiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjY0IiB5PSIxMjEiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9InVybCgjZ29sZEdyYWRpZW50KSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9InRleHQtc2hhZG93OiAwcHggMXB4IDJweCByZ2JhKDAsMCwwLDAuMyk7Ij7liIYg5LiNIOi1t+OAgOe6ryDpnaAg54ixPC90ZXh0PjwvZz48L3N2Zz4=
 // @description       (｡>ᴗ•)✧《也许同类型中最好用？》系列 - 一个基于 JavaScript 的网盘文件下载地址获取工具✨，基于【网盘直链下载助手】修改 | 支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘 | 开源・自用・去广 | 改界面・添功能・修Bug | 既超越原版，亦是同类中最好用版本！👋
@@ -10,12 +10,14 @@
 // @description:zh-HK (｡>ᴗ•)✧《也許同類型中最好用？》系列 - 一個基於 JavaScript 的網盤檔案下載地址獲取工具✨，基於【網盤直鏈下載助手】改編 | 支援 百度網盤 / 阿里雲盤 / 中國移動雲盤 / 天翼雲盤 / 迅雷雲盤 / 夸克網盤 / UC網盤 / 123雲盤 八大平台 | 開源・自用・除廣 | 改介面・擴功能・修Bug | 既超越原版，亦是同類中最好用版本！👋
 // @copyright         © 2022 hmjz100
 // @license           AGPL-3.0-or-later
-// @source            https://github.com/hmjz100/LinkSwift/
-// @website           https://github.com/hmjz100/LinkSwift/
-// @homepageURL       https://github.com/hmjz100/LinkSwift/
-// @homepage          https://github.com/hmjz100/LinkSwift/
-// @support           https://github.com/hmjz100/LinkSwift/issues
-// @supportURL        https://github.com/hmjz100/LinkSwift/issues
+// @source            https://github.com/Horoaw/LinkSwift/
+// @website           https://github.com/Horoaw/LinkSwift/
+// @homepageURL       https://github.com/Horoaw/LinkSwift/
+// @homepage          https://github.com/Horoaw/LinkSwift/
+// @support           https://github.com/Horoaw/LinkSwift/issues
+// @supportURL        https://github.com/Horoaw/LinkSwift/issues
+// @updateURL         https://raw.githubusercontent.com/Horoaw/LinkSwift/dev/LinkSwift-Horoaw.user.js
+// @downloadURL       https://raw.githubusercontent.com/Horoaw/LinkSwift/dev/LinkSwift-Horoaw.user.js
 // @require           https://unpkg.com/jquery@3.6.0/dist/jquery.min.js
 // @require           https://unpkg.com/sweetalert2@11.4.8/dist/sweetalert2.min.js
 // @resource SwalLigt https://unpkg.com/sweetalert2@11.4.8/dist/sweetalert2.min.css
@@ -222,7 +224,7 @@
         account: "https://pic.rmb.bdstatic.com/bjh/8b9e14345b3cdf96aedac2f3971adcb02681.png"
       },
       dom: {
-        footer: `o(≧▽≦)o 十分感谢您的支持！来给此项目一个 <a href="https://github.com/hmjz100/LinkSwift" target="_blank" class="pl-a" data-no-instant="1"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>Star</a> 吧~`,
+        footer: `o(≧▽≦)o 十分感谢您的支持！来给此项目一个 <a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a" data-no-instant="1"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>Star</a> 吧~`,
         button: {
           api: {
             title: "API 下载",
@@ -2208,7 +2210,7 @@
         allowOutsideClick: false,
         showCloseButton: true,
         showConfirmButton: false,
-        footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+        footer: `<p><a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
         didOpen: (toast) => {
           let element = $(toast);
           if (event && Object.keys($(event.currentTarget).data()).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass("listener-tip").attr("data-title", "返回上页").css({ "left": "0", "right": "auto" }).text("◃");
@@ -2267,7 +2269,7 @@
         allowOutsideClick: false,
         showCloseButton: true,
         showConfirmButton: false,
-        footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+        footer: `<p><a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
         didOpen: (toast) => {
           let element = $(toast);
           if (event && Object.keys($(event.currentTarget).data()).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass("listener-tip").attr("data-title", "返回上页").css({ "left": "0", "right": "auto" }).text("◃");
@@ -2341,7 +2343,7 @@
         allowOutsideClick: false,
         showCloseButton: true,
         showConfirmButton: false,
-        footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+        footer: `<p><a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
         didOpen: (toast) => {
           let element = $(toast);
           if (event && Object.keys($(event.currentTarget).data()).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass("listener-tip").attr("data-title", "返回上页").css({ "left": "0", "right": "auto" }).text("◃");
@@ -2417,7 +2419,7 @@
         allowOutsideClick: false,
         showCloseButton: true,
         showConfirmButton: false,
-        footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+        footer: `<p><a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
         didOpen: (toast) => {
           let element = $(toast);
           if (event && Object.keys($(event.currentTarget).data()).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass("listener-tip").attr("data-title", "返回上页").css({ "left": "0", "right": "auto" }).text("◃");
@@ -2482,7 +2484,7 @@
         allowOutsideClick: false,
         showCloseButton: true,
         showConfirmButton: false,
-        footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+        footer: `<p><a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
         didOpen: (toast) => {
           let element = $(toast);
           if (event && Object.keys($(event.currentTarget).data()).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass("listener-tip").attr("data-title", "返回上页").css({ "left": "0", "right": "auto" }).text("◃");
@@ -2563,7 +2565,7 @@
         allowOutsideClick: false,
         showCloseButton: true,
         showConfirmButton: false,
-        footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+        footer: `<p><a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
       });
     },
 
@@ -2593,7 +2595,7 @@
         html: debugInfo,
         allowOutsideClick: false,
         showCloseButton: true,
-        footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+        footer: `<p><a href="https://github.com/Horoaw/LinkSwift" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
       });
     },
 
@@ -2614,8 +2616,16 @@
 						<div>俏也不争春，只把春来报。待到山花烂漫时，她在丛中笑。</div>
 					</blockquote>
 				</div>
-				<div class="block">(ﾉ◕ヮ◕)ﾉ 遇到 Bug 要记得去 <a class="pl-a" href="https://github.com/hmjz100/LinkSwift/issues" target="_blank">Github 议题</a> 向我报告哦~</div>
-				<div class="block">(o゜▽゜)o☆ 觉得好用？来一同完善本项目吧~ 欢迎提交<a class="pl-a" href="https://github.com/hmjz100/LinkSwift/pulls" target="_blank">拉取请求</a>为本项目做贡献~</div>
+				<div class="block">(ﾉ◕ヮ◕)ﾉ 遇到 Bug 要记得去 <a class="pl-a" href="https://github.com/Horoaw/LinkSwift/issues" target="_blank">Github 议题</a> 向我报告哦~</div>
+				<div class="block">(o゜▽゜)o☆ 觉得好用？来一同完善本项目吧~ 欢迎提交<a class="pl-a" href="https://github.com/Horoaw/LinkSwift/pulls" target="_blank">拉取请求</a>为本项目做贡献~</div>
+				<div class="block">
+					<name>V1.1.3.4 · Horoaw fork</name>
+					<div>1、百度网盘：尝试识别新版分享页选中项，并递归读取文件夹和处理分页；</div>
+					<div>2、改进分享签名、文件夹列表、下载链接获取时的错误提示，增加重置授权令牌菜单；</div>
+					<div>3、调整分享页下载助手菜单的悬停区域；</div>
+					<div>4、cURL 增加从头下载命令及批量选项，百度网盘文件夹保留目录层级；</div>
+					<div>5、项目链接和脚本更新地址指向 Horoaw fork。百度接口响应仍需在实际使用中验证。</div>
+				</div>
 				<div class="block">
 					<name>V1.1.3</name>
 					<div>
@@ -3936,7 +3946,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
 					<p>
 						如果您喜欢这个脚本的话<br/>
 						请支持原版作者 <a class="listener-tip pl-a" target="_blank" href="https://www.youxiaohou.com" data-title='${config.base.service.account ? `的微信公众号……<br/><img style="width:250px" src="${config.base.service.account}">` : ""}'><svg class="pl-icon"><use xlink:href="#pl-icon-si-tampermonkey"></use></svg> 油小猴</a><br/>
-						并给此改版点个 <a class="listener-tip pl-a" target="_blank" href="https://github.com/hmjz100/LinkSwift/" data-title="来看看此项目的 Github 页面吧~"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg> Star</a>？
+						并给此改版点个 <a class="listener-tip pl-a" target="_blank" href="https://github.com/Horoaw/LinkSwift/" data-title="来看看此项目的 Github 页面吧~"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg> Star</a>？
 					</p>
 					<p>脚本不仅能精简网盘界面<br/>点亮后还能修改多个网盘的主题色哦！</p>
 				</div><style>.pl-init-content p{margin:10px 0!important}</style>`,
