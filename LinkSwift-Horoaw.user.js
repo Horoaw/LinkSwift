@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              LinkSwift
 // @namespace         github.com/hmjz100
-// @version           1.1.3.1
+// @version           1.1.3.2
 // @author            Hmjz100、油小猴、Horoaw
 // @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImdvbGRHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNGRkY1OUQ7c3RvcC1vcGFjaXR5OjEiLz48c3RvcCBvZmZzZXQ9IjUwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRDcwMDtzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZCQzAyRDtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuNCwgLTIpIHNjYWxlKDAuOSkiPjxwYXRoIGQ9Ik0xMDMuNiAxMDcuNGMzLjUtMi4yIDguOS02LjEgMTMuOC0xMi41czcuMy0xMi41IDguNS0xNi41Yy41LTEuNyAyLjItNy41IDIuMi0xNC43IDAtMTAuMS0zLjMtMjUuMS0xNS40LTM2LjgtMTQuNS0xNC0zMi4xLTE0LjMtMzUuNy0xNC4zLTggMC0xNS43IDEuOS0yMi42IDUuMkM0NCAyMyAzNS43IDMxLjQgMzAuOCA0MS43Yy0xLjMgMi44LTQgNC43LTcuMSA1LTQgLjMtNy41IDQuNC04LjkgOS42LS41IDEuOS0xLjYgMy41LTMuMSA0LjdDNC40IDY2LjggMCA3NS43IDAgODVjMCA2LjggMi4zIDEzLjEgNi4xIDE4LjIgNS41IDcuNCAxNC4yIDEyLjIgMjQgMTIuMmg0Ny4xYzQuNCAwIDExLS41IDE4LjMtMy41IDMuMi0xLjQgNS45LTMgOC4xLTQuNXoiIGZpbGw9IiNBMDk5RjAiLz48cGF0aCBkPSJNMTE5LjggNjQuM2MuMS0xNy4xLTEwLjQtMjgtMTIuNS0zMC4xQzk1IDIyLjEgNzkuOSAyMS44IDc2LjkgMjEuOGMtMTcuNiAwLTMzLjMgMTAuNS0zOS45IDI2LjctLjYgMS4zLTEuOCAyLjMtMy40IDIuM2gtLjRjLTUuOCAwLTEwLjYgNC44LTEwLjYgMTAuN3YuNWMwIDEuNC0uOCAyLjYtMS45IDMuM0MxMy40IDY5IDguOCA3Ni44IDguOCA4NWMwIDEyLjIgOS45IDIyLjMgMjIuMiAyMi4zaDQ1LjJjMy42LS4xIDE3LjYtLjkgMjkuNi0xMiAyLjktMi44IDEzLjktMTMuNyAxNC0zMXoiIGZpbGw9IiM1NzRBQjgiLz48cGF0aCBkPSJNMTEwLjggNTcuNGwuMiAzLjNjMCAxLjMtMS4xIDIuNC0yLjMgMi40LTEuMyAwLTIuMy0xLjEtMi4zLTIuNGwtLjEtMi44di0uM2MwLTEuMi45LTIuMiAyLjEtMi4zaC4zYy43IDAgMS4zLjMgMS43LjctLjIuMS4zLjUuNCAxLjR6bS0zLjMtMTAuM2MwIDEuMi0xIDIuMy0yLjIgMi4zaC0uMWMtLjggMC0xLjYtLjUtMi0xLjItNC42LTguMy0xMy4zLTEzLjUtMjIuOC0xMy41LTEuMiAwLTIuMy0xLTIuMy0yLjJ2LS4xYzAtMS4yIDEtMi4zIDIuMi0yLjNoLjFhMzAuMzcgMzAuMzcgMCAwIDEgMTUuOCA0LjRjNC42IDIuOCA4LjQgNi44IDExLjEgMTEuNS4xLjMuMi43LjIgMS4xek04OC4zIDczLjhMNzMuNSA5My4yYy0xLjUgMS45LTMuNSAzLjEtNS43IDMuNWgtLjJjLS40LjEtLjguMS0xLjIuMS0uNiAwLTEuMS0uMS0xLjYtLjItMi4yLS40LTQuMi0xLjctNS42LTMuNUw0NC4zIDczLjljLTItMi42LTIuNS01LjQtMS40LTcuNy4xLS4xLjEtLjIuMi0uMiAxLjItMiAzLjUtMy4yIDYuNC0zLjJoNi42di01LjdjMC02LjggNC43LTEyIDEwLjktMTIgNC44IDAgOC41IDIuNiAxMC4zIDcuMi41IDEuMy0uMiAyLjctMS41IDMuMnMtMi44LS4xLTMuMy0xLjRjLTEuMS0yLjctMi45LTQtNS41LTQtMy41IDAtNiAzLTYgN3Y4LjFjMCAuNS0uMiAxLS42IDEuNC0uNi43LTEuNyAxLjEtMi42IDEuMWgtOC40Yy0xLjMgMC0yIC40LTIuMS43LS4yLjQgMCAxLjMuOSAyLjRMNjMuMSA5MGMuOSAxLjIgMi4xIDEuOCAzLjMgMS44czIuMy0uNiAzLjEtMS43bDE0LjgtMTkuM2MuOS0xLjEgMS4xLTIgLjktMi40LS4yLS4zLS45LS43LTIuMS0uN2gtNy42Yy0uOSAwLTEuNy0uNS0yLjEtMS4yLS4zLS40LS40LS44LS40LTEuMyAwLTEuNCAxLjEtMi41IDIuNS0yLjVoNy42YzMuMSAwIDUuNSAxLjMgNi42IDMuNWwuMy43Yy43IDIuMS4xIDQuNi0xLjcgNi45eiIgZmlsbD0iI2ZmZiIvPjwvZz48Zz48cGF0aCBkPSJNMCAxMDAgUTY0IDExNSAxMjggMTAwIEwxMjggMTI4IEwwIDEyOCBaIiBmaWxsPSIjRDMyRjJGIi8+PHBhdGggZD0iTTAgMTAwIFE2NCAxMTUgMTI4IDEwMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI2dvbGRHcmFkaWVudCkiIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjY0IiB5PSIxMjEiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI5MDAiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9InVybCgjZ29sZEdyYWRpZW50KSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgc3R5bGU9InRleHQtc2hhZG93OiAwcHggMXB4IDJweCByZ2JhKDAsMCwwLDAuMyk7Ij7liIYg5LiNIOi1t+OAgOe6ryDpnaAg54ixPC90ZXh0PjwvZz48L3N2Zz4=
 // @description       (｡>ᴗ•)✧《也许同类型中最好用？》系列 - 一个基于 JavaScript 的网盘文件下载地址获取工具✨，基于【网盘直链下载助手】修改 | 支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘 | 开源・自用・去广 | 改界面・添功能・修Bug | 既超越原版，亦是同类中最好用版本！👋
@@ -750,11 +750,16 @@
      * @param {String} [headers] - 自定义请求头参数（可选）
      * @returns {String} 编码后的 curl 命令字符串
      */
-    convertLinkToCurl(link, filename, headers, resume = true) {
+    convertLinkToCurl(link, filename, headers, resume = true, directories = []) {
       let terminal = base.getValue("setting_curl_terminal");
-      filename = base.fixFilename(filename);
+      const safePart = value => {
+        const part = base.fixFilename(String(value)).replace(/[$%\r\n]/g, "_");
+        return !part || part === "." || part === ".." ? "_" : part;
+      };
+      const output = [...directories.map(safePart), safePart(filename)].join("/");
       const mode = resume ? "-C -" : "--no-clobber";
-      return `${terminal !== "wp" ? "curl" : "curl.exe"} -fL ${mode} "${link}" -o "${filename}"${headers ? (" " + headers) : ""}`;
+      const createDirs = directories.length ? " --create-dirs" : "";
+      return `${terminal !== "wp" ? "curl" : "curl.exe"} -fL ${mode}${createDirs} "${link}" -o "${output}"${headers ? (" " + headers) : ""}`;
     },
 
     /**
@@ -3271,6 +3276,7 @@
       let {
         isFolder,
         getFileName,
+        getCurlDirectories,
         getFileSize,
         getFileLink,
         getFileMirror,
@@ -3312,8 +3318,9 @@
 						</div>`);
           }
           if (temp.mode === "curl") {
-            let finalink = base.convertLinkToCurl(dlink, filename, convert?.curl);
-            let restartLink = base.convertLinkToCurl(dlink, filename, convert?.curl, false);
+            const directories = getCurlDirectories?.(v) || [];
+            let finalink = base.convertLinkToCurl(dlink, filename, convert?.curl, true, directories);
+            let restartLink = base.convertLinkToCurl(dlink, filename, convert?.curl, false, directories);
             allLink.push(finalink);
             content.find(".pl-main").append(`<div class="pl-item">
 							<div class="pl-item-name listener-tip" data-size="${size}"><div class="name">${filename}</div><div class="size">${base.sizeFormat(size)}</div></div>
@@ -5104,6 +5111,19 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
       }
       return files;
     },
+    setCurlFolderPaths(files, dirs) {
+      const roots = dirs.map(dir => String(dir.path || "").replace(/\/+$/, ""))
+        .filter(Boolean).sort((a, b) => a.length - b.length);
+      for (const file of files) {
+        const path = typeof file.path === "string" ? file.path : "";
+        const root = roots.find(dir => path.startsWith(dir + "/"));
+        if (!root) continue;
+        const rootName = root.split("/").filter(Boolean).pop();
+        const parts = path.slice(root.length + 1).split("/");
+        parts.pop();
+        file._linkSwiftCurlDirectories = [rootName, ...parts].filter(Boolean);
+      }
+    },
     async getLink() {
       // 获取选择的文件列表
       let selectList = this.getSelectedList();
@@ -5143,6 +5163,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
           }
         }
         files = [...new Map(files.map(file => [String(file.fs_id), file])).values()];
+        this.setCurlFolderPaths(files, dirs);
         if (!files.length) return message.error("提示：<br/>文件夹是空的哦~");
         $doc.find(".loading-popup .loading-title").html(`链接获取中`);
         $doc.find(".loading-popup .swal2-html-container").html(`<div>正在获取文件对应的下载链接~</div>`);
@@ -5157,6 +5178,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
           temp.links = [files, {
             isFolder: v => v.isdir === 1,
             getFileName: v => (v.server_filename || v.filename),
+            getCurlDirectories: v => v._linkSwiftCurlDirectories || [],
             getFileSize: v => v.size,
             getFileLink: v => {
               if (!v.dlink || !v.dlink.startsWith("http")) return v.dlink;
@@ -5189,6 +5211,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
           }
         }
         files = [...new Map(files.map(file => [String(file.fs_id), file])).values()];
+        this.setCurlFolderPaths(files, dirs);
         if (!files.length) return message.error("提示：<br/>选中的文件夹中没有文件哦~");
 
         //if (data.share.url) {
@@ -5215,6 +5238,7 @@ a.downloadSubtitle:disabled, button.downloadSubtitle:disabled{background-color:$
           temp.links = [files, {
             isFolder: v => v.isdir === 1,
             getFileName: v => (v.server_filename || v.filename),
+            getCurlDirectories: v => v._linkSwiftCurlDirectories || [],
             getFileSize: v => v.size,
             getFileLink: v => {
               if (!v.dlink || !v.dlink.startsWith("http")) return v.dlink;
