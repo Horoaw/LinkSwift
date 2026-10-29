@@ -5,7 +5,7 @@
 ## 安装
 
 1. 在 Firefox 中安装并启用 Tampermonkey（篡改猴）。
-2. 打开 [安装 Horoaw 版脚本](https://raw.githubusercontent.com/Horoaw/LinkSwift/b3159fb92dac3721dae8c9b8ad1ad37b208b466e/LinkSwift-Horoaw.user.js)，在篡改猴的安装页面确认安装。
+2. 打开 [安装 Horoaw 版脚本](https://raw.githubusercontent.com/Horoaw/LinkSwift/9fe9697be0fa550ab8a73c58e33eadd93f50b97e/LinkSwift-Horoaw.user.js)，在篡改猴的安装页面确认安装。
 3. 刷新百度网盘页面，在文件列表中勾选文件或文件夹，使用“下载助手”选择下载方式。首次使用时按提示完成百度授权。
 
 如果之前安装过其他 LinkSwift 版本，请在篡改猴中停用旧版本，避免两个脚本同时运行。
@@ -16,6 +16,7 @@
 - 尝试递归读取分享文件夹及自己的网盘文件夹，处理分页，并在接口失败时显示错误代码。
 - 调整分享页签名请求和下载助手悬停菜单。
 - 增加“重置百度授权令牌”脚本菜单，便于排查缓存授权问题。
+- cURL 下载提供续传与从头下载命令；从头下载需要 curl 7.83.0 或更高版本，会保留同名文件。
 
 ## 当前状态
 
