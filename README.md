@@ -5,7 +5,7 @@
 ## 安装
 
 1. 在 Firefox 中安装并启用 Tampermonkey（篡改猴）。
-2. 打开 [安装 Horoaw 版脚本](https://raw.githubusercontent.com/Horoaw/LinkSwift/dev/LinkSwift-Horoaw.user.js)，在篡改猴的安装页面确认安装。
+2. 打开 [安装 Horoaw 版脚本](https://raw.githubusercontent.com/Horoaw/LinkSwift/b3159fb92dac3721dae8c9b8ad1ad37b208b466e/LinkSwift-Horoaw.user.js)，在篡改猴的安装页面确认安装。
 3. 刷新百度网盘页面，在文件列表中勾选文件或文件夹，使用“下载助手”选择下载方式。首次使用时按提示完成百度授权。
 
 如果之前安装过其他 LinkSwift 版本，请在篡改猴中停用旧版本，避免两个脚本同时运行。
